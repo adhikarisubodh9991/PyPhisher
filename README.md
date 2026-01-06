@@ -2,21 +2,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/pyphisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/pyphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/pyphisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/PyPhisher.svg" width="140" height="28">
-=======
-  <img src="https://img.shields.io/badge/Version-2.1.8-green?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/adhikarisubodh9991/PyPhisher?style=for-the-badge&color=orange">
   <img src="https://img.shields.io/github/forks/adhikarisubodh9991/PyPhisher?color=cyan&style=for-the-badge&color=purple">
   <img src="https://img.shields.io/github/watchers/adhikarisubodh9991/PyPhisher?color=cyan&style=for-the-badge&color=purple">
   <img src="https://img.shields.io/github/issues/adhikarisubodh9991/PyPhisher?color=red&style=for-the-badge">
   <img src="https://img.shields.io/github/license/adhikarisubodh9991/PyPhisher?style=for-the-badge&color=blue">
   <img src="https://hits.dwyl.com/adhikarisubodh9991/PyPhisher.svg" width="140" height="28">
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
 <br>
 <br>
   <img src="https://img.shields.io/badge/Author-adhikarisubodh9991-purple?style=flat-square">
@@ -50,10 +41,7 @@ This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhish
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/PyPhisher```
-=======
  - ```git clone https://github.com/adhikarisubodh9991/PyPhisher```
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
 
 ##### Enter the directory
  - ```cd PyPhisher```
@@ -66,20 +54,7 @@ This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhish
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
-=======
 wget https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/pyphisher.py && python3 pyphisher.py
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
-  <img src="https://img.shields.io/badge/Version-2.1.8-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/adhikarisubodh9991/PyPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/adhikarisubodh9991/PyPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/adhikarisubodh9991/PyPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/adhikarisubodh9991/PyPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/adhikarisubodh9991/PyPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/adhikarisubodh9991/PyPhisher.svg" width="140" height="28">
- - ```git clone https://github.com/adhikarisubodh9991/PyPhisher```
-wget https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/pyphisher.py && python3 pyphisher.py
-
 ```
 
 ### Pip
@@ -186,11 +161,7 @@ If not found, php and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-<<<<<<< HEAD
-![PyPhisher](https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/pyphisher.gif)
-=======
 ![PyPhisher](https://raw.githubusercontent.com/adhikarisubodh9991/PyPhisher/main/files/pyphisher.gif)
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
 
 ## Video Tutorial
 <a href="https://rebrand.ly/pyphishervideo">PyPhisher in Termux</a>
@@ -245,17 +216,5 @@ Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zp
 
 ## [~] Find Me on :
 
-<<<<<<< HEAD
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-purple?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
-
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
-
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-blue?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
-
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-orange?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
-
-- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/KasRoudra)
-=======
 - [![Github](https://img.shields.io/badge/Github-adhikarisubodh9991-purple?style=for-the-badge&logo=github)](https://github.com/adhikarisubodh9991)
->>>>>>> a0e2300 (Prepare for GitHub: Update author, URLs, remove GitLab refs)
 
